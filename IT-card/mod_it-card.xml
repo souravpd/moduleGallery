@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+<name>IT-cards Module</name>
+<author>Sourav Prasad</author>
+<creationDate>February 2019</creationDate>
+<copyright>Copyright (C) 2019</copyright>
+<license>GNU General Public License version 2 or later</license>
+<authorEmail>souravpd007@gmail.com</authorEmail>
+<version>1.0.0</version>
+<description>Place a Bootstrap-Italia Card anywhere in your project</description>
+<files>
+        <filename module="mod_it-card">mod_it-card.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_it-card.xml</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+</files>
+<config>
+<fields name="params"> 
+    <fieldset name="basic">
+                    <field 
+                        name="card-wrapper-sfx" 
+                        type="text" 
+                        default="" 
+                        label="Suffix for the card-wrapper div" 
+                        description="Add CSS classes to the card-wrapper div">
+                    </field>
+                    <field 
+                        name="card-sfx" 
+                        type="text" 
+                        default="" 
+                        label="Suffix for the card div" 
+                        description="Add CSS classes to the card div">
+                    </field>
+                    <field name="simpleArticle" type="radio" default="0" label="Create a Simple Article type Card" description="Choose the Simple Article Header Variant">
+                         <option value="0">No</option>
+                        <option value="1">Yes</option>
+                    </field>
+                    <field name="simpleArticleCategory" type="text" default="Category" label="Category Text" description="The name of the category">
+                    </field>
+                    <field name="simpleArticleCategoryLink" type="text" default="#" label="Category Text Link" description="The link which the category points to">
+                    </field>
+                    <field name="simpleArticleCategoryData" type="text" default="10/11/2018" label="Category Data" description="The data to be displayed beside the category name">
+                    </field>
+                    <field name="Categorization" type="radio" default="0" label="Create a Card with category icon" description="Choose the Category Icon Header Variant">
+                         <option value="0">No</option>
+                        <option value="1">Yes</option>
+                    </field>
+                    <field name="categorizationCategoryText" type="text" default="Category" label="Category Text" description="The name of the category">
+                    </field>
+                    <field name="categorizationsvgLink" type="text" default="#" label="Svg Icon Link" description="The svg link for the category icon">
+                    </field>
+                     <field name="bigTopIcon" type="radio" default="0" label="Add a Big top icon" description="Add a big top Icon">
+                         <option value="0">No</option>
+                        <option value="1">Yes</option>
+                    </field>
+                     <field name="topBigIconLink" type="text" default="#" label="Svg Icon Link" description="The svg link for the top Big Icon ">
+                    </field>
+                    <field name="tagDate" type="radio" default="0" label="Add a Tag and Date" description="Add a Tag and Date to the Header">
+                         <option value="0">No</option>
+                        <option value="1">Yes</option>
+                    </field>
+                    <field name="tagName" type="text" default="Tag" label="Tag Name" description="Add a tag name">
+                    </field>
+                    <field name="tagLink" type="text" default="#" label="Tag Link" description="The link which the Tag points to">
+                    </field>
+                    <field name="tagData" type="text" default="10/11/2018" label="Tag Data" description="The data to be displayed beside the Tag name">
+                    </field>
+                    <field name="card-title" type="text" default="Card-Title" label="Card-Title" description="The title of the card">
+                    </field>
+                    <field name="card-para" type="text" default="Lorem ipsum dolor sit amet, consectetur adipiscing elit…" label="Card-info" description="The paragraph of the card">
+                    </field>
+                     <field name="cardSignature" type="radio" default="0" label="Card Signature" description="Add a Signature to the card">
+                         <option value="0">No</option>
+                        <option value="1">Yes</option>
+                    </field>
+                    <field name="cardSignatureText" type="text" default="di Federico De Paolis" label="Card-Signature" description="The Signature of the card">
+                    </field>
+                    <field name="readMoreLink" type="radio" default="0" label="Display a Read More Link" description="Display a Read More Link">
+                         <option value="0">No</option>
+                        <option value="1">Yes</option>
+                    </field>
+                    <field name="read-more-text" type="text" default="Read More" label="read more Text" description="The text for the read more link">
+                    </field>
+                    <field name="read-more-link" type="text" default="#" label="read more Link" description="The  link for the read more">
+                    </field>
+                     <field name="actionButton" type="radio" default="0" label="Display a Action Button" description="Display a Action Button">
+                         <option value="0">No</option>
+                        <option value="1">Yes</option>
+                    </field>
+                    <field name="actionButtonText" type="text" default="Read More" label="Action Button Text" description="The text for the Action Button">
+                    </field>
+    </fieldset>
+</fields>
+</config>
+</extension>
