@@ -15,6 +15,7 @@
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>
         <filename>tmpl/index.html</filename>
+        <filename>tmpl/bootstrap-italia.min.css</filename>
 </files>
 <config>
 <fields name="params"> 

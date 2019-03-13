@@ -9,8 +9,10 @@
 
  //No Direct Access
 defined('_JEXEC') or die;
+$document = JFactory::getDocument();
+$document->addStyleSheet(JURI::base(). "modules/mod_it-card/tmpl/bootstrap-italia.min.css");
 ?>
-<link rel="stylesheet" href="./bootstrap-italia/css/bootstrap-italia.min.css">
+
 <div class="card-wrapper <?php echo $card_wrapper_sfx; ?>">
     <div class="card <?php echo $card_sfx; ?> ">
         <?php if($cardImg) : ?>
