@@ -20,14 +20,14 @@
 <fields name="params"> 
     <fieldset name="basic">
                     <field 
-                        name="card-wrapper-sfx" 
+                        name="card_wrapper_sfx" 
                         type="text" 
                         default="" 
                         label="Suffix for the card-wrapper div" 
                         description="Add CSS classes to the card-wrapper div">
                     </field>
                     <field 
-                        name="card-sfx" 
+                        name="card_sfx" 
                         type="text" 
                         default="" 
                         label="Suffix for the card div" 
@@ -67,9 +67,9 @@
                     </field>
                     <field name="tagData" type="text" default="10/11/2018" label="Tag Data" description="The data to be displayed beside the Tag name">
                     </field>
-                    <field name="card-title" type="text" default="Card-Title" label="Card-Title" description="The title of the card">
+                    <field name="card_title" type="text" default="Card-Title" label="Card-Title" description="The title of the card">
                     </field>
-                    <field name="card-para" type="text" default="Lorem ipsum dolor sit amet, consectetur adipiscing elit…" label="Card-info" description="The paragraph of the card">
+                    <field name="card_para" type="text" default="Lorem ipsum dolor sit amet, consectetur adipiscing elit…" label="Card-info" description="The paragraph of the card">
                     </field>
                      <field name="cardSignature" type="radio" default="0" label="Card Signature" description="Add a Signature to the card">
                          <option value="0">No</option>
@@ -81,15 +81,21 @@
                          <option value="0">No</option>
                         <option value="1">Yes</option>
                     </field>
-                    <field name="read-more-text" type="text" default="Read More" label="read more Text" description="The text for the read more link">
+                    <field name="read_more_text" type="text" default="Read More" label="read more Text" description="The text for the read more link">
                     </field>
-                    <field name="read-more-link" type="text" default="#" label="read more Link" description="The  link for the read more">
+                    <field name="read_more_link" type="text" default="#" label="read more Link" description="The  link for the read more">
                     </field>
                      <field name="actionButton" type="radio" default="0" label="Display a Action Button" description="Display a Action Button">
                          <option value="0">No</option>
                         <option value="1">Yes</option>
                     </field>
                     <field name="actionButtonText" type="text" default="Read More" label="Action Button Text" description="The text for the Action Button">
+                    </field>
+                     <field name="cardImg" type="radio" default="0" label="Display a Card with Image" description="Display a Card with Image">
+                         <option value="0">No</option>
+                        <option value="1">Yes</option>
+                    </field>
+                    <field name="cardImgLink" type="text" default="https://via.placeholder.com/150" label="Link for the image" description="The  link for the Image">
                     </field>
     </fieldset>
 </fields>
