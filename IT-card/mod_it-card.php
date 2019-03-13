@@ -22,7 +22,6 @@ $simpleArticleCategoryData =  $params->get('simpleArticleCategoryData');
 $Categorization =  $params->get('Categorization');
 $categorizationCategoryText =  $params->get('categorizationCategoryText');
 $categorizationsvgLink =  $params->get('categorizationsvgLink');
-$categorizationsvgLink =  $params->get('categorizationsvgLink');
 //Big top icon fields
 $bigTopIcon =  $params->get('bigTopIcon');
 $topBigIconLink =  $params->get('topBigIconLink');
