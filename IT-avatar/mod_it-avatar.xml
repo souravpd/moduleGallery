@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+<name>IT-avatar Module</name>
+<author>Sourav Prasad</author>
+<creationDate>March 2019</creationDate>
+<copyright>Copyright (C) 2019</copyright>
+<license>GNU General Public License version 2 or later</license>
+<authorEmail>souravpd007@gmail.com</authorEmail>
+<version>1.0.0</version>
+<description>Place a Bootstrap-Italia Avatar anywhere in your project</description>
+<files>
+ <filename module="mod_it-avatar">mod_it-avatar.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_it-avatar.xml</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>tmpl/bootstrap-italia.min.css</filename>
+</files>
+<config>
+<fields name="params"> 
+    <fieldset name="basic">
+        <field 
+                        name="avatar_wrapper_sfx" 
+                        type="text" 
+                        default="" 
+                        label="Suffix for the avatar-wrapper div" 
+                        description="Add CSS classes to the avatar-wrapper div">
+        </field>
+         <field name="avatarSize" type="list" default="md" label="Avatar Size" description="Select the avatar size from the dropdown list">
+                        <option value="xs">Extra-Small</option>
+                        <option value="sm">Small</option>
+                        <option value="md">Medium</option>
+                        <option value="lg">Large</option>
+                        <option value="xl">Extra-large</option>
+                        <option value="xxl">Extra-extra large</option>
+        </field>
+         <field name="staticAvatar" type="radio" default="1" label="Avatar without link" description="Choose a avatar not linked to any other file">
+                         <option value="0">No</option>
+                        <option value="1">Yes</option>
+         </field>
+         <field name="dynamicAvatar" type="radio" default="0" label="Avatar with link" description="Choose a avatar linked to any other file">
+                         <option value="0">No</option>
+                        <option value="1">Yes</option>
+         </field>
+         <field name="avatarLink" type="text" default="#" label="Avatar Link" description="The link for the avatar">
+         </field>
+         <field name="tooltipContent" type="text" default="Sourav Prasad" label="Tool tip content" description="The content for the tooltip">
+         </field>
+          <field name="tooltipPos" type="list" default="top" label="Tooltip Position" description="Select the tooltip position from the dropdown list">
+                        <option value="top">top</option>
+                        <option value="right">right</option>
+                        <option value="left">left</option>
+        </field>
+        <field name="avatarType" type="list" default="img" label="Avatar Type" description="Select the Avatar Type from the dropdown list">
+                        <option value="img">Image</option>
+                        <option value="svg">Icon</option>
+                        <option value="text">Text</option>
+        </field>
+        <field name="avatarImgLink" type="text" default="#" label="Avatar Image Link" description="The link for the image for the Image type avatar">
+        </field>
+        <field name="avatarAltText" type="text" default="Username" label="Avatar Image Alternative Text" description="The alternative text for the image incase the image doesnot load up">
+        </field>
+         <field name="avatarColour" type="list" default="primary" label="Avatar Colour" description="Select the avatar colour from the dropdown list">
+                        <option value="primary">Blue</option>
+                        <option value="secondary">Dark Grey</option>
+                        <option value="green">Green</option>
+                        <option value="orange">Orange</option>
+                        <option value="red">Red</option>
+        </field>
+        <field name="avatarSvgLink" type="text" default="#" label="Avatar Svg Link" description="The Svg link for the icon type avatar">
+        </field>
+        <field name="avatarText" type="text" default="Hello World" label="Avatar text" description="The text for the text type Avatar">
+        </field>
+        <field name="srText" type="text" default="Avatar" label="ScreenReader Text" description="The text for the Screen Reader">
+        </field>
+        <field name="avatarBehaviour" type="radio" default="0" label="Avatar with Presence or Status Indication" description="Choose a Avatar with Presence or Status Indication">
+                         <option value="0">No</option>
+                        <option value="1">Yes</option>
+        </field>
+        <field name="avatarBehaviourType" type="list" default="avatar-presence active" label="Avatar Behaviour Type" description="Select the avatar behaviour classes from the dropdown list">
+                        <option value="avatar-presence active">presence-Active</option>
+                        <option value="avatar-presence busy">presence-Busy</option>
+                        <option value="avatar-presence hidden">presence-Busy</option>
+                        <option value="avatar-status approved">status-approved</option>
+                        <option value="avatar-status declined">status-declined</option>
+                        <option value="avatar-status notify">status-notify</option>
+        </field>
+        <field name="avatarBehaviourSvgLink" type="text" default="#" label="Avatar Behaviour Svg Link" description="The Svg link for the avatar Behaviour">
+        </field>
+        <field name="extraText" type="radio" default="0" label="Avatar with Extra Supporting Text" description="Choose a Avatar with Extra Supporting Content on the side">
+                         <option value="0">No</option>
+                        <option value="1">Yes</option>
+        </field>
+        <field name="extraTextHeading" type="text" default="Spurav Prasad" label="Supporting Text Heading" description="The Supporting Text heading">
+        </field>
+        <field name="extraTextData" type="text" default="10/03/19" label="Supporting Text data" description="The Supporting Text heading Data">
+        </field>
+    </fieldset>
+</fields>
+</config>
+</extension>
