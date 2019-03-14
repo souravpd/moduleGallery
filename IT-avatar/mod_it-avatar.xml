@@ -81,7 +81,7 @@
         <field name="avatarBehaviourType" type="list" default="avatar-presence active" label="Avatar Behaviour Type" description="Select the avatar behaviour classes from the dropdown list">
                         <option value="avatar-presence active">presence-Active</option>
                         <option value="avatar-presence busy">presence-Busy</option>
-                        <option value="avatar-presence hidden">presence-Busy</option>
+                        <option value="avatar-presence hidden">presence-Hidden</option>
                         <option value="avatar-status approved">status-approved</option>
                         <option value="avatar-status declined">status-declined</option>
                         <option value="avatar-status notify">status-notify</option>
