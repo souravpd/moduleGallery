@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+<name>IT-Hero Module</name>
+<author>Sourav Prasad</author>
+<creationDate>March 2019</creationDate>
+<copyright>Copyright (C) 2019</copyright>
+<license>GNU General Public License version 2 or later</license>
+<authorEmail>souravpd007@gmail.com</authorEmail>
+<version>1.0.0</version>
+<description>Place a Bootstrap-Italia Hero anywhere in your project</description>
+<files>
+        <filename module="mod_it-hero">mod_it-hero.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_it-hero.xml</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>tmpl/bootstrap-italia.min.css</filename>
+</files>
