@@ -31,7 +31,7 @@ $document->addStyleSheet(JURI::base(). "modules/mod_it-hero/tmpl/bootstrap-itali
     <span class="it-category"><?php echo $categoryText ; ?></span>
     <h1 class="no_tac"><?php echo $headingText ; ?></h1>
     <p class = "d-none d-lg-block"><?php echo $paraText; ?></p>
-    <div class="it-btn-container"><a class="btn btn-sm btn-outline-primary" href="#"><?php echo $buttonLabel ; ?></a>
+    <div class="it-btn-container"><a class="btn btn-sm btn-outline-primary" href="<?php echo $buttonLink ; ?>"><?php echo $buttonLabel ; ?></a>
     </div>
     </div>
     </div>

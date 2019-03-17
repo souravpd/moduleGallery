@@ -47,6 +47,8 @@
                     </field>
    <field name="buttonLabel" type="text" default="Action" label="Text for the Button" description="Text for the Button">
                     </field> 
+    <field name="buttonLink" type="text" default="#" label="Link for the Button" description="Link for the Button">
+                    </field> 
    </fieldset>
 </fields>
 </config>

@@ -24,6 +24,7 @@ $categoryText =  $params->get('categoryText');
 $headingText =  $params->get('headingText');
 $paraText =  $params->get('paraText');
 $buttonLabel =  $params->get('buttonLabel');
+$buttonLink =  $params->get('$buttonLink');
 
 // Include the syndicate functions only once
 require_once dirname(__FILE__).'/helper.php';
