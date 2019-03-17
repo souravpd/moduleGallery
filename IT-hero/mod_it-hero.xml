@@ -17,3 +17,37 @@
         <filename>tmpl/index.html</filename>
         <filename>tmpl/bootstrap-italia.min.css</filename>
 </files>
+<config>
+<fields name="params"> 
+    <fieldset name="basic">
+     <field 
+                        name="hero_wrapper_suffix" 
+                        type="text" 
+                        default="" 
+                        label="Suffix for the hero-wrapper div" 
+                        description="Add CSS classes to the hero-wrapper div">
+                    </field>
+     <field name="imageHero" type="radio" default="0" label="Create a Hero with a Image Component" description="Create a Hero with a Image Component">
+                         <option value="0">No</option>
+                         <option value="1">Yes</option>
+                    </field>
+     <field name="heroImageLink" type="text" default="" label="Image Link" description="The link for the Image">
+                    </field> 
+     <field name="altImageText" type="text" default="Hero Image" label="Alternative Text in place of Image" description="The alternative text in case the Image doesnot Load Up">
+                    </field>   
+     <field name="textualHero" type="radio" default="1" label="Create a Hero with Text Component" description="Create a Hero with a Text Component">
+                         <option value="0">No</option>
+                         <option value="1">Yes</option>
+                    </field>
+     <field name="categoryText" type="text" default="Category" label="Top text Content" description="Small Text Block at the top of the component">
+                    </field>
+    <field name="headingText" type="text" default="This is a Heading" label="Heading text" description="Content for the heading component">
+                    </field>
+    <field name="paraText" type="text" default="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." label="Paragraph Text" description="Content for the Hero paragraph">
+                    </field>
+   <field name="buttonLabel" type="text" default="Action" label="Text for the Button" description="Text for the Button">
+                    </field> 
+   </fieldset>
+</fields>
+</config>
+</extension>
