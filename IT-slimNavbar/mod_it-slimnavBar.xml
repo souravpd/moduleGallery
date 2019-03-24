@@ -15,6 +15,7 @@
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>
         <filename>tmpl/index.html</filename>
+        <filename>tmpl/svg/sprite.svg</filename>
         <filename>tmpl/bootstrap-italia.min.css</filename>
         <filename>tmpl/bootstrap-italia.bundle.min.js</filename>
 </files>
@@ -32,3 +33,27 @@
                     </field> 
      <field name="brandText" type="text" default="Ente appartenenza/Owner" label="Brand Text" description="The brand Logo text">
                     </field> 
+    <field name="linkOne" type="text" default="#" label="Link one" description="Link one">
+                    </field>
+    <field name="linkOneText" type="text" default="Link one" label="Link one text" description="Link one Text">
+                    </field>
+    <field name="linkTwo" type="text" default="#" label="Link two" description="Link two">
+                    </field>
+    <field name="linkTwoText" type="text" default="Link two" label="Link two text" description="Link two Text">
+                    </field>
+    <field name="dropdownlinkOne" type="text" default="#" label=" dropdown Link one" description=" dropdown Link one">
+                    </field>
+    <field name="dropdownlinkOneText" type="text" default="dropdown Link one" label=" dropdownLink one text" description=" dropdown Link one Text">
+                    </field>
+    <field name="dropdownlinkTwo" type="text" default="#" label="dropdown Link two" description="Link two">
+                    </field>
+    <field name="dropdownlinkTwoText" type="text" default="dropdown Link two" label=" dropdown Link two text" description=" dropdown Link two Text">
+                    </field>
+    <field name="buttonLink" type="text" default="#" label="button Link " description="The link for the button">
+                    </field> 
+     <field name="buttonText" type="text" default="Log in" label="Button text" description="The text for the button">
+                    </field> 
+   </fieldset>
+</fields>
+</config>
+</extension>
