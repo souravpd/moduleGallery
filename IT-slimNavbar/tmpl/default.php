@@ -13,7 +13,8 @@ $document = JFactory::getDocument();
 $document->addStyleSheet(JURI::base(). "modules/mod_it-slimnavbar/tmpl/bootstrap-italia.min.css");
 $document->addScript(JURI::base(). "modules/mod_it-slimnavBar/tmpl/bootstrap-italia.bundle.min.js");
 ?>
-<div class="it-header-slim-wrapper <?php echo $slimHeaderSuffix ; ?> "style="z-index:2;">
+<div class="container-fluid">
+<div class="it-header-slim-wrapper <?php echo $slimHeaderSuffix ; ?> ">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -64,4 +65,5 @@ $document->addScript(JURI::base(). "modules/mod_it-slimnavBar/tmpl/bootstrap-ita
       </div>
     </div>
   </div>
+</div>
 </div>
