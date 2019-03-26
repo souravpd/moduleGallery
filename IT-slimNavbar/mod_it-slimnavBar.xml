@@ -51,7 +51,7 @@
                     </field>
     <field name="buttonLink" type="text" default="#" label="button Link " description="The link for the button">
                     </field> 
-     <field name="buttonText" type="text" default="Log in" label="Button text" description="The text for the button">
+    <field name="buttonText" type="text" default="Log in" label="Button text" description="The text for the button">
                     </field> 
    </fieldset>
 </fields>

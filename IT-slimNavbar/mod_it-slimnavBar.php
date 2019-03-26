@@ -24,10 +24,10 @@ $linkTwo =  $params->get('linkTwo');
 $linkTwoText =  $params->get('linkTwoText');
 $dropdownlinkOne =  $params->get('dropdownlinkOne');
 $dropdownlinkOneText =  $params->get('dropdownlinkOneText');
-$dropdownlinkTwo =  $params->get('$dropdownlinkTwo');
+$dropdownlinkTwo =  $params->get('dropdownlinkTwo');
 $dropdownlinkTwoText =  $params->get('dropdownlinkTwoText');
-$buttonLink =  $params->get('$buttonLink');
-$buttonText =  $params->get('$buttonText');
+$buttonLink =  $params->get('buttonLink');
+$buttonText =  $params->get('buttonText');
 // Include the syndicate functions only once
 require_once dirname(__FILE__).'/helper.php';
 
