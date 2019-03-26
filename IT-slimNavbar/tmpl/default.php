@@ -11,7 +11,7 @@
 defined('_JEXEC') or die;
 $document = JFactory::getDocument();
 $document->addStyleSheet(JURI::base(). "modules/mod_it-slimnavbar/tmpl/bootstrap-italia.min.css");
-$document->addScript(JURI::base(). "modules/mod_it-slimnavBar/tmpl/bootstrap-italia.min.css");
+$document->addScript(JURI::base(). "modules/mod_it-slimnavBar/tmpl/bootstrap-italia.bundle.min.js");
 ?>
 <div class="it-header-slim-wrapper <?php echo $slimHeaderSuffix ; ?>">
     <div class="container">
