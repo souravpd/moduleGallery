@@ -11,6 +11,6 @@ To use any module :
   3. Install the Module on to your Joomla! Installation
   4. Read the Module Docs to Understand the Different Module Parameters
 
-## Developed by :name_badge: Sourav Prasad
+## Developed by :name_badge: Sourav Prasad and :coffee:
 
 Suggestions and contributions are highly appreciated :smile:
